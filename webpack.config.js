@@ -1,4 +1,7 @@
-const path = require('path');
+
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 
 module.exports = {
     entry: './src/index.ts',
@@ -10,22 +13,33 @@ module.exports = {
     mode: 'none',
     devtool: 'inline-source-map',
     module: {
-    rules: [
-        {
-            test: /\.ts$/,
-            use: 'ts-loader',
-            exclude: /node_modules/,
-        },
-        {
-            test: /\.png$/,
-            type: 'asset/resource'
-        },
-        {
-            test: /\.svg/,
-            type: 'asset/inline'
-        }
-    ]},
+        rules: [
+            {
+                test: /\.ts$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
+            {
+                test: /\.png$/,
+                type: 'asset/resource'
+            },
+            {
+                test: /\.svg/,
+                type: 'asset/inline'
+            }
+        ]
+    },
     resolve: {
         extensions: ['.ts', '.js'],
+    },
+    plugins: [
+        new HtmlWebpackPlugin()
+    ],
+    devServer: {
+        static: {
+            directory: path.join(__dirname, './dist'),
+        },
+        compress: true,
+        port: 9000,
     },
 }
