@@ -13,4 +13,4 @@
 - [x] Setup VSCode Debugging
 - [x] Enable sourcemaps for development builds
 - [ ] Add TSLint/ESLint
-- [ ] Add Leaflet and Turf libraries
+- [x] Add Leaflet and Turf libraries
