@@ -9,7 +9,7 @@
 - [x] Add Assets support
 - [ ] Add Sass Support
 - [ ] Create  bundles for Prod and Dev modes
-- [ ] HMR
+- [x] HMR for Dev
 - [ ] Setup VSCode Debugging
 - [ ] Enable sourcemaps for development builds
 - [ ] Add TSLint/ESLint
