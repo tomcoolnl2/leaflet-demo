@@ -6,7 +6,7 @@
 - [x] Add to Git repo
 - [x] Setup basic Webpack
 - [x] Add TypeScript support
-- [ ] Add Assets support
+- [x] Add Assets support
 - [ ] Add Sass Support
 - [ ] Create  bundles for Prod and Dev modes
 - [ ] HMR
