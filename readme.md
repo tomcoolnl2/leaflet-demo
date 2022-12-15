@@ -5,9 +5,12 @@
 ## Todo
 - [x] Add to Git repo
 - [x] Setup basic Webpack
-- [ ] Add TypeScript support
+- [x] Add TypeScript support
+- [ ] Add Assets support
 - [ ] Add Sass Support
+- [ ] Create  bundles for Prod and Dev modes
+- [ ] HMR
+- [ ] Setup VSCode Debugging
 - [ ] Enable sourcemaps for development builds
 - [ ] Add TSLint/ESLint
-- [ ] Create  bundles for Prod and Dev modes
 - [ ] Add Leaflet and Turf libraries
