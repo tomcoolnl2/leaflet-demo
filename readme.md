@@ -8,9 +8,9 @@
 - [x] Add TypeScript support
 - [x] Add Assets support
 - [x] Add CSS Support
-- [ ] Create  bundles for Prod and Dev modes
 - [x] HMR
 - [x] Setup VSCode Debugging
 - [x] Enable sourcemaps for development builds
 - [ ] Add TSLint/ESLint
-- [ ] Add Leaflet and Turf libraries
+- [x] Add Leaflet and Turf libraries
+- [ ] Create  bundles for Prod and Dev modes
