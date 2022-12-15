@@ -11,6 +11,6 @@
 - [x] HMR
 - [x] Setup VSCode Debugging
 - [x] Enable sourcemaps for development builds
-- [ ] Add TSLint/ESLint
+- [x] Add TSLint/ESLint
 - [x] Add Leaflet and Turf libraries
 - [ ] Create  bundles for Prod and Dev modes

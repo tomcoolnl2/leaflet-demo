@@ -6,12 +6,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
     entry: './src/index.ts',
     devtool: 'inline-source-map',
+    mode: 'development',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname,  './dist')
     },
-    mode: 'none',
-    devtool: 'inline-source-map',
     module: {
         rules: [
             {
