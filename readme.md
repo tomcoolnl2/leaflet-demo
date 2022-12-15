@@ -10,7 +10,7 @@
 - [x] Add CSS Support
 - [ ] Create  bundles for Prod and Dev modes
 - [x] HMR
-- [ ] Setup VSCode Debugging
-- [ ] Enable sourcemaps for development builds
+- [x] Setup VSCode Debugging
+- [x] Enable sourcemaps for development builds
 - [ ] Add TSLint/ESLint
 - [ ] Add Leaflet and Turf libraries
