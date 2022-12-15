@@ -7,9 +7,9 @@
 - [x] Setup basic Webpack
 - [x] Add TypeScript support
 - [x] Add Assets support
-- [ ] Add Sass Support
+- [x] Add CSS Support
 - [ ] Create  bundles for Prod and Dev modes
-- [ ] HMR
+- [x] HMR
 - [ ] Setup VSCode Debugging
 - [ ] Enable sourcemaps for development builds
 - [ ] Add TSLint/ESLint
