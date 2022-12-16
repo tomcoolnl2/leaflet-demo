@@ -13,4 +13,8 @@
 - [x] Enable sourcemaps for development builds
 - [x] Add TSLint/ESLint
 - [x] Add Leaflet and Turf libraries
+- [x] Reduce bundlesize by better asset management
+- [ ] Manage General Asset type
 - [ ] Create  bundles for Prod and Dev modes
+- [ ] Add SCSS support
+- [ ] Share variables between TS and SCSS
