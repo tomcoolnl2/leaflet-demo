@@ -1,0 +1,23 @@
+{
+    "base": "16px",
+    "spacing": "1rem",
+    "breakpoints": {
+        "xs": "0em",
+        "sm": "30em",
+        "md": "64em",
+        "lg": "75em"
+    },
+    "typography": {
+        "font": "'Open Sans', sans-serif",
+        "text": "1rem",
+        "title": "2rem"
+    },
+    "colors": {
+        "primary": "#2c97de",
+        "secondary": "#7F8FA4",
+        "warning": "#f2c500",
+        "success": "#1fce6d",
+        "danger": "#e94b35",
+        "error": "#e94b35"
+    }
+}

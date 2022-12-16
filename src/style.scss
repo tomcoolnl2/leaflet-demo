@@ -3,13 +3,14 @@ $bg-color: grey;
 
 body {
     background: $bg-color;
+    border: 20px solid get('colors.warning');
 }
 
 img {
     border: 1px solid;
-    border-color: peru;
+    border-color: teal;
 
     &:hover {
-        border-color: blue;
+        border-color: yellow;
     }
 }

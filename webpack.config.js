@@ -1,5 +1,8 @@
 
 const path = require('path')
+const sass = require('sass');
+const get = require('./src/scss/config')(sass);
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 
@@ -18,6 +21,10 @@ module.exports = {
                 use: 'ts-loader',
                 exclude: /node_modules/
             },
+            { 
+                test: /\.json$/,
+                type: 'json'
+            },
             {
                 test: /\.(png|jpg|svg)$/,
                 type: 'asset',
@@ -29,8 +36,20 @@ module.exports = {
 
             },
             {
-                test: /\.(scss)$/,
-                use: ['style-loader', 'css-loader', 'sass-loader'],
+                test: /\.s[ac]ss$/i,
+                use: [
+                    'style-loader', 
+                    'css-loader',
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                          implementation: sass,
+                          sassOptions: {
+                            functions: { ...get }
+                          }
+                        }
+                      }
+                ],
             }
         ]
     },
