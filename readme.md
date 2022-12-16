@@ -15,6 +15,11 @@
 - [x] Add Leaflet and Turf libraries
 - [x] Reduce bundlesize by better asset management
 - [x] Manage General Asset type
-- [ ] Create  bundles for Prod and Dev modes
 - [x] Add SCSS support
-- [ ] Share variables between TS and SCSS
+- [x] Share variables between TS and SCSS
+- [ ] Add CSS minifying
+- [ ] Create a shared config JSON file
+- [ ] Use [Terser](https://webpack.js.org/plugins/terser-webpack-plugin/) to reduce the bundle size
+- [ ] Create  bundles for Prod and Dev modes
+- [ ] Manage better browser caching
+- [ ] Include a reset CSS file

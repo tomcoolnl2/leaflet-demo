@@ -3,6 +3,7 @@ $bg-color: grey;
 
 body {
     background: $bg-color;
+    border: 20px solid get('colors.warning');
 }
 
 img {
