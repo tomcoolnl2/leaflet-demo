@@ -2,7 +2,9 @@
 const theme = require('../theme.json');
 
 module.exports = (sass) => {
+
     const sassUtils = require('node-sass-utils')(sass)
+
     function get(keys) {
         keys = keys.getValue().split`.`
         let result = theme
@@ -11,5 +13,8 @@ module.exports = (sass) => {
         }
         return sassUtils.castToSass(result)
     }
-    return {'get($selector)': (selector) => get(selector)}
+    
+    return {
+        'get($selector)': (selector) => get(selector)
+    }
 }
