@@ -16,15 +16,17 @@ module.exports = {
             {
                 test: /\.ts$/,
                 use: 'ts-loader',
-                exclude: /node_modules/,
+                exclude: /node_modules/
             },
             {
-                test: /\.png$/,
-                type: 'asset/resource'
-            },
-            {
-                test: /\.svg/,
-                type: 'asset/inline'
+                test: /\.(png|jpg|svg)$/,
+                type: 'asset',
+                parser: {
+                    dataUrlCondition: {
+                        maxSize: 3 * 1024 // 3 kilobytes
+                    }
+                }
+
             },
             {
                 test: /\.(css)$/,
