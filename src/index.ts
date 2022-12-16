@@ -1,6 +1,6 @@
 
 import { getImage, getSVG } from './image'
-import './style.css'
+import './style.scss'
 
 
 const img = getImage()

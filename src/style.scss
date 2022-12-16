@@ -1,0 +1,15 @@
+
+$bg-color: grey;
+
+body {
+    background: $bg-color;
+}
+
+img {
+    border: 1px solid;
+    border-color: peru;
+
+    &:hover {
+        border-color: blue;
+    }
+}
