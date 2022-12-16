@@ -17,9 +17,6 @@
 - [x] Manage General Asset type
 - [x] Add SCSS support
 - [x] Share variables between TS and SCSS
-- [ ] Add CSS minifying
-- [ ] Create a shared config JSON file
-- [ ] Use [Terser](https://webpack.js.org/plugins/terser-webpack-plugin/) to reduce the bundle size
 - [ ] Create  bundles for Prod and Dev modes
 - [ ] Manage better browser caching
 - [ ] Include a reset CSS file
